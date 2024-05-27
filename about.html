@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/dcaf597049.js" crossorigin="anonymous"></script>
+    <title>About</title>
+    <style>
+        body{
+            background: radial-gradient( rgb(233, 119, 138), #f7b4bf, rgb(105, 14, 29)) ;
+            background-size: cover;
+            background-position: center;
+             min-height: 100vh;
+             font-family: Verdana, Geneva, Tahoma, sans-serif;
+         }
+         nav{
+    width: 100%;
+    height: 70px;
+    margin-bottom: 30px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    list-style: none;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: #ffcbd3 ;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 17px;
+}
+a:hover{
+    background-color: #ffcbd3;
+    color: brown;
+    border-radius: 4px;
+    transition: 2s;
+}
+.logo{
+    width: 60px;
+    border-radius: 30px;
+    margin: 10px;
+}
+.checkbtn{
+    font-size: 40px;
+    color: pink;
+    float: right;
+    line-height: 80px;
+    cursor: pointer;
+    display: none;
+    margin-right: 30px;
+}
+#check{
+    display: none;
+}
+@media(max-width: 952px){
+    .logo{
+        width: 50px;
+        margin: 20px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+@media (max-width: 858px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 28%;
+        height: 60vh;
+        top: 65px;
+        left: -100%;
+        transition: all .3s;
+        background: radial-gradient( rgb(233, 119, 138),  rgb(105, 14, 29)) ;
+        border-radius: 10px;
+    }
+    nav ul li{
+        display: block;
+        margin: 30px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 18px;
+    }
+    a:hover{
+        background-color: #ffcbd3;
+        color: brown;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+}
+         div{
+            
+            width: 70%;
+            height: 100vh;
+            margin:  auto;
+            text-align: center;
+            
+         }
+        
+         .phara1{
+            margin-top: 50px;
+         }
+          p {
+            text-align: left;
+            padding: 0;
+            font-family: serif;
+            font-size: 18px;
+         }
+            img{
+             width: 30px;
+             margin-top: 20px;
+             padding: 7px;
+}
+        i{
+            font-weight: 700;
+            font-size: 20px;
+            color: black;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <nav> 
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars checkbtn"></i>
+        </label>
+        <img class="logo" src="images/logo-.jpg" alt="logo">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="about.html">About me</a></li>
+            
+        </ul>
+        
+    </nav>
+</header>
+    <div>
+        <h2>Who am i</h2>
+        <p class="phara1">👋 Hello again! I'm Bontu a versatile front-end developer and designer with a passion for creating captivating digital experiences. With a strong foundation in HTML, CSS, and JavaScript, coupled with expertise in modern front-end frameworks like React and  Bootstrap creating responsive websites, optimizing user interfaces for performance, or designing intuitive user experiences, turning ideas into polished designs, using tools like Figma to bring concepts to reality with efficiency and elegance.</p>
+        <p>
+            My design process is driven by creativity and user-centric principles and ensuring that every interface.  I specialize in turning ideas into beautiful, user-friendly interfaces that drive engagement and enhance user satisfaction.
+        </p>
+        <p> I believe in the power of collaboration and enjoy working closely with clients to understand their goals and translate them into impactful digital solutions.</p>
+        <p>Let's collaborate and bring your digital vision to life! Reach out to discuss how I can help elevate your online presence and drive success for your business.</p>
+    
+        <a href="tel:+201157467890" class="fa fa-call"><i class="fa-solid fa-phone"></i></a>
+                <a href="mailto:bontusalih1@gamil.com" class="fa fa-email"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://wa.link/iqwodl" ><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/zuzupretty90?igsh=OWxtbnJteDNnbDN3&utm_source=qr" ><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://t.me/Zule_Salih94"><i class="fa-brands fa-telegram"></i></a>
+                <a href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3B5fdxAdjAQvCQgXbH5ilaUQ%3D%3D" ><i class="fa-brands fa-linkedin"></i></a>
+                
+
+    </div>
+    
+</body>
+</html>
