@@ -154,10 +154,11 @@ h1{
     
 }
 
-.icons{
+.icons a{
     width: 24px;
     height: 24px;
     margin: 3px;
+    background-color: none;
 }
 
 .about-section{
@@ -195,7 +196,7 @@ h1{
         background-color: rgb(105, 14, 29);
         margin: 10px auto;
         width: 300px;
-        padding: 10px;
+        padding: 5px;
         border-radius: 50px;
         color: whitesmoke;
         text-decoration: none;
@@ -209,4 +210,5 @@ h1{
         background-color: rgb(105, 14, 29) ;
         color: white;
         text-align: right;
+         height: 80px;
      }
