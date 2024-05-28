@@ -41,7 +41,7 @@ nav ul li a{
     padding: 10px;
     font-size: 17px;
 }
-a:hover{
+nav ul li a:hover{
     background-color: #ffcbd3;
     color: brown;
     border-radius: 4px;
@@ -206,7 +206,7 @@ h1{
              width: 200px;
              height: auto;
              }}
-     footer{
+    .phara footer{
         background-color: rgb(105, 14, 29) ;
         color: white;
         text-align: right;
