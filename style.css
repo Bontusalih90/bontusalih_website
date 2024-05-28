@@ -201,14 +201,16 @@ h1{
         color: whitesmoke;
         text-decoration: none;
      }
-     @media only screen and (max-width: 320px){
+     @media only screen and (max-width: 400px){
         #resume, h3{
              width: 200px;
              height: auto;
+             margin: 0 auto;
              }}
-    .phara footer{
+     footer .footer{
         background-color: rgb(105, 14, 29) ;
         color: white;
         text-align: right;
-         height: 80px;
+        font-weight: 300;
+        font-size: 12px;
      }
