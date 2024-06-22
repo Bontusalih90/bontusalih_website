@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>bontusalih</title>
+    <title>My website</title>
     <script src="https://kit.fontawesome.com/dcaf597049.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="style.css">
@@ -19,11 +19,15 @@
            <img class="logo" src="images/logo-.jpg" alt="logo">
             <ul>
                 <li><a href="index.html">HOME</a></li>
-                <li><a href="#">PROJECTS</a></li>
-                <li><a href="#resume">RESUME</a></li>
+                <li><a href="#project">PROJECTS</a></li>
+                <li><a href="resume.pdf" target="_blank">RESUME</a></li>
                 <li><a href="#about">ABOUT</a></li> 
+                <a href="#" id="closebtn"><i class="fa-solid fa-xmark"></i></a>
             </ul>
         </nav>
+        <div id="side-bar">
+            <i id="menu-bar" class="fa-solid fa-outdent"></i>
+        </div>
         <div class="main">
             <div class="text-section">
                 <h4>Hello there!</h4>
@@ -31,12 +35,14 @@
                 <p>Front-end Web developer and designer. </p>
                 <p>Know more about me <a class="text" href="about.html"> here</a></p> 
                  <h1>Contact me</h1> 
-                <a href="tel:+201157467890" ><img src="icons/mobile.png" alt="call icon"  class="icons"></a>
-                <a href="mailto:bontusalih1@gamil.com" class="fa fa-email"><img src="icons/gmail.png" alt="email icon"  class="icons"></a>
-                <a href="https://wa.link/iqwodl" ><img src="icons/logo.png" alt="whatsapp icon"  class="icons"></a>
-                <a href="https://www.instagram.com/zuzupretty90?igsh=OWxtbnJteDNnbDN3&utm_source=qr" ><img src="icons/instagram (1).png" alt="instagram icon"  class="icons"></a>
-                <a href="https://t.me/Zule_Salih94"><img src="icons/telegram.png" alt="telegram icon"  class="icons"></a>
-                <a href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3B5fdxAdjAQvCQgXbH5ilaUQ%3D%3D" ><img src="icons/linkedin.png" alt="linkedin icon" style="width: 24px; height: 24px;"  class="icons"></i></a>
+                 <div id="icons">
+                 <a href="tel:+201157467890" class="fa fa-call"><i class="fa-solid fa-phone"></i></a>
+                 <a href="mailto:bontusalih1@gamil.com" class="fa fa-email"><i class="fa-solid fa-envelope"></i></a>
+                 <a href="https://wa.link/iqwodl" ><i class="fa-brands fa-whatsapp"></i></a>
+                 <a href="https://www.instagram.com/zuzupretty90?igsh=OWxtbnJteDNnbDN3&utm_source=qr" ><i class="fa-brands fa-instagram"></i></a>
+                 <a href="https://t.me/Zule_Salih94"><i class="fa-brands fa-telegram"></i></a>
+                 <a href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3B5fdxAdjAQvCQgXbH5ilaUQ%3D%3D" ><i class="fa-brands fa-linkedin"></i></a>
+                </div>
             </div>
             <div class="img-section">
                 <img src="images/profile-pic.jpg" alt="profile-picture" class="profile" >
@@ -47,23 +53,67 @@
     <div>
     </div>
 </section>
+<section id="project">
+    <h2>Some of My Projects</h2>
+    <div class="project">
+        
+     <div class="background-img1"> 
+        <a href="https://bontusalih90.github.io/Eluha-store/"><img src="images/eluhastore.png" alt="" ></a>
+        <div class="pro-content">
+        <h4>Shopping Store</h4>
+        <a href="https://bontusalih90.github.io/Eluha-store/">View Detail</a>
+        </div>
+     </div>
+     <div class="background-img1"> 
+        <a href="https://bontusalih90.github.io/Babi-s-Coffee/"><img src="images/babis.png" alt=""></a>
+        <div class="pro-content">
+            <h4>Babi-s-Coffee</h4>
+            <a href="https://bontusalih90.github.io/Babi-s-Coffee/">View Detail</a>
+            </div>
+     </div>
+    </div>
+</section>
 <section class="about-section">
     <div class="about" id="about">
     <h2>Who am i</h2>
-        <p class="phara">👋 Hello again! I'm Bontu a versatile front-end developer and designer with a passion for creating captivating digital experiences. With a strong foundation in HTML, CSS, and JavaScript, coupled with expertise in modern front-end frameworks like React and  Bootstrap creating responsive websites, optimizing user interfaces for performance, or designing intuitive user experiences, turning ideas into polished designs, using tools like Figma to bring concepts to reality with efficiency and elegance.</p>
-        <p class="phara">
-            My design process is driven by creativity and user-centric principles and ensuring that every interface.  I specialize in turning ideas into beautiful, user-friendly interfaces that drive engagement and enhance user satisfaction.
-        </p>
-        <p class="phara"> I believe in the power of collaboration and enjoy working closely with clients to understand their goals and translate them into impactful digital solutions.</p>
-        <p class="phara">Let's collaborate and bring your digital vision to life! Reach out to discuss how I can help elevate your online presence and drive success for your business.</p>
-        <h3> <a href="resume.pdf" target="_blank" id="resume">Check my resume</a></h3>
+        <p class="phara">👋 Hello again! I'm Bontu Salih  a front-end developer and designer in creating responsive, user-friendly web applications. I specialize in HTML, CSS, JavaScript, and frameworks like React and Angular. My focus is on writing clean, efficient code and designing seamless user experience.</p>
+        <p class="phara"> I believe in the power of collaboration and enjoy working closely with clients to understand their goals and translate them into impactful digital solutions <a class="text" href="about.html"> See more</a></p>
+        
     </div>
 </section>
 <section class="">
 
 </section>
-<footer>
-    <p class="footer">&copy; 2024  Bontu Salih. All rights reserved.</p>
+<footer  class="footer">
+    <div id="footer">
+    <div class="skill">
+      <h5>Skills</h5>
+      <p>HTML</p>
+      <P>CSS</P>
+      <p>JavaScript</p>
+      <p>React</p>
+      <p>figma</p>
+      <p>Wordpress</p>
+    </div>
+    <div class="service">
+        <h5>Services</h5>
+        <p>Web development</p>
+        <p>Web design</p>
+        <p>Wordpress</p>
+        <p>Web redesign</p>
+    </div>
+    <div class="language">
+        <h5>Language</h5>
+        <p>English (fluent)</p>
+        <p>Arabic (basic)</p>
+        <p>Oromo (native)</p>
+        <p>Amharic (native)</p>
+    </div>
+    </div>
+    <p class="right">Copyright&copy; 2024  Bontu Salih. All rights reserved.</p>
+    <div class="policy">
+        <a href="index.html">Back to TOP</a>
+    </div>
 </footer>
 </body>
 </html>
