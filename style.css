@@ -279,7 +279,7 @@ h1{
 
      footer{
         background-color: rgb(105, 14, 29) ;
-        color: whitesmoke;
+        padding: 5px;
      }
      #footer{
         display: flex;
@@ -287,10 +287,19 @@ h1{
         justify-content: space-between;
         margin: 10px;
      }
-     #footer p, #footer h5{
+     #footer p, #footer h5, .follow h5{
         font-size: 10px;
         color: rgb(177, 175, 175);
         
+     }
+     .last-footer{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+     }
+     .follow a, .follow i{
+        color: rgb(177, 175, 175);
+        padding: 1px;
      }
      .footer .right{
         font-size: 10px;
